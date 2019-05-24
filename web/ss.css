@@ -1,0 +1,59 @@
+ select,option{
+     font-weight:bold;
+     background-color: black;
+     color:white;
+     font-size:large;
+  }
+a {text-decoration:none;}
+ h1{color:blue; }
+   h2{background-color:black; color:blueviolet;}
+ h5{background-color: black;}
+ 
+  p,tr,td{color:royalblue;}
+  table{font-size:large;}
+  h3{font-size:larger;
+  color:red;}
+  p{font-size:large;}
+  input[type="button"]{font-size:50px;}
+  form,input{color:blue;}
+  .search-box{
+      position:relative;
+      top:6%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      background:white;
+      border-color:orangered;
+      height:25px;
+      width:525px;
+  } 
+  .search-select{
+      float:left;
+      color:red;
+      width:50px;
+      height:25px;
+      background:border-box;
+      border-color:buttonface;
+     
+  }
+  .search-text{
+       height:20px;
+      width:444px;
+      background:none;
+      outline:orangered;
+    float:left;
+      color:white;
+      font-size:16px;
+      transition:0.4s;
+      color:blue;
+      
+  }
+  .search-btn{
+      color:orange;
+      float:right;
+      width:30px;
+      height:20px;
+      background:orangered;
+     
+  }
+ 
+ 
